@@ -1,0 +1,1803 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8ec75866af81422e847cc64bd58147e5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8ec75866af81422e847cc64bd58147e5" ></div>
+        
+</body>
+<script>    
+    
+            var map_8ec75866af81422e847cc64bd58147e5 = L.map(
+                "map_8ec75866af81422e847cc64bd58147e5",
+                {
+                    center: [38.58, -99.09],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    titles: "Mapbox Bright",
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_212aafbe0c9647da87c4ff2470608847 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8ec75866af81422e847cc64bd58147e5);
+        
+    
+            var feature_group_ee555ad6e6fe4493a2a0d1cba0393973 = L.featureGroup(
+                {}
+            ).addTo(map_8ec75866af81422e847cc64bd58147e5);
+        
+    
+            var circle_marker_a6478d2bfe9142cc91c606188c34f623 = L.circleMarker(
+                [45.35346845, -75.78805984580009],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_5d4ff0dffe1642879fad4299c3f69aba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f29212242f374d2e8585a4c268fa7410 = $(`<div id="html_f29212242f374d2e8585a4c268fa7410" style="width: 100.0%; height: 100.0%;">$195,000.00,  2694 MONCTON ROAD UNIT#A OTTAWA, ONTARIO, #1165389 </div>`)[0];
+            popup_5d4ff0dffe1642879fad4299c3f69aba.setContent(html_f29212242f374d2e8585a4c268fa7410);
+        
+
+        circle_marker_a6478d2bfe9142cc91c606188c34f623.bindPopup(popup_5d4ff0dffe1642879fad4299c3f69aba)
+        ;
+
+        
+    
+    
+            var circle_marker_5cf673888caa47aaa14512491105e10b = L.circleMarker(
+                [45.43712395, 1.1111],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_d0599389e8c647c590a27d032ec8d736 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2983dd9ca86d4880b9faa93928bac337 = $(`<div id="html_2983dd9ca86d4880b9faa93928bac337" style="width: 100.0%; height: 100.0%;">$164,900.00,  48 RUE DU ZÉNITH|#1 HULL (GATINEAU), QUEBEC, #17538170</div>`)[0];
+            popup_d0599389e8c647c590a27d032ec8d736.setContent(html_2983dd9ca86d4880b9faa93928bac337);
+        
+
+        circle_marker_5cf673888caa47aaa14512491105e10b.bindPopup(popup_d0599389e8c647c590a27d032ec8d736)
+        ;
+
+        
+    
+    
+            var circle_marker_eba43eba6ea3469b954e9b6c7acbe266 = L.circleMarker(
+                [1.1111, 1.1111],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_7e7892c0703f480cbee8d5fe8cb9c160 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07b09ad6340b417fa912eac193526a42 = $(`<div id="html_07b09ad6340b417fa912eac193526a42" style="width: 100.0%; height: 100.0%;">$164,900.00,  892 BOUL. DU PLATEAU|#3 AYLMER (GATINEAU), QUEBEC, #22937619</div>`)[0];
+            popup_7e7892c0703f480cbee8d5fe8cb9c160.setContent(html_07b09ad6340b417fa912eac193526a42);
+        
+
+        circle_marker_eba43eba6ea3469b954e9b6c7acbe266.bindPopup(popup_7e7892c0703f480cbee8d5fe8cb9c160)
+        ;
+
+        
+    
+    
+            var circle_marker_0a7d671cc7ad4767b33cdd82b99816c7 = L.circleMarker(
+                [45.3790725, -75.65479977159929],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_d9689afce20b49ef8c9eb72c3124148d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5fb44b53d2844b4085eecf29a93b0e00 = $(`<div id="html_5fb44b53d2844b4085eecf29a93b0e00" style="width: 100.0%; height: 100.0%;">$172,000.00,  1440 HERON ROAD UNIT#1009 OTTAWA, ONTARIO, #1164579 </div>`)[0];
+            popup_d9689afce20b49ef8c9eb72c3124148d.setContent(html_5fb44b53d2844b4085eecf29a93b0e00);
+        
+
+        circle_marker_0a7d671cc7ad4767b33cdd82b99816c7.bindPopup(popup_d9689afce20b49ef8c9eb72c3124148d)
+        ;
+
+        
+    
+    
+            var circle_marker_4e6748eb7dc04bc8b3cf1c0dc64559a5 = L.circleMarker(
+                [45.401881599999996, -75.8544636470299],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_4d631804d15849c6b15038f92685a697 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6039a61ad9fd41d5beac1ec350b2fa60 = $(`<div id="html_6039a61ad9fd41d5beac1ec350b2fa60" style="width: 100.0%; height: 100.0%;">$89,900.00,  84 RUE FRONT|#103 AYLMER (GATINEAU), QUEBEC, #14678554</div>`)[0];
+            popup_4d631804d15849c6b15038f92685a697.setContent(html_6039a61ad9fd41d5beac1ec350b2fa60);
+        
+
+        circle_marker_4e6748eb7dc04bc8b3cf1c0dc64559a5.bindPopup(popup_4d631804d15849c6b15038f92685a697)
+        ;
+
+        
+    
+    
+            var circle_marker_b230f628dcdd4df38f731ae92f42312e = L.circleMarker(
+                [45.401881599999996, -75.8544636470299],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_d408a40030cd4eefb6f07a37d9826721 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd4ecc0511564097b79ef04461fe9a06 = $(`<div id="html_cd4ecc0511564097b79ef04461fe9a06" style="width: 100.0%; height: 100.0%;">$89,900.00,  84 RUE FRONT|#102 AYLMER (GATINEAU), QUEBEC, #24179333</div>`)[0];
+            popup_d408a40030cd4eefb6f07a37d9826721.setContent(html_cd4ecc0511564097b79ef04461fe9a06);
+        
+
+        circle_marker_b230f628dcdd4df38f731ae92f42312e.bindPopup(popup_d408a40030cd4eefb6f07a37d9826721)
+        ;
+
+        
+    
+    
+            var circle_marker_fa10b9cd0f8545a3a64f67b9e29cb518 = L.circleMarker(
+                [1.1111, 1.1111],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_d53b4095059d4783b0a0f1cf97b5385a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e1a3409482f4e10b11f69dbe62a9c93 = $(`<div id="html_9e1a3409482f4e10b11f69dbe62a9c93" style="width: 100.0%; height: 100.0%;">$144,900.00,  1571 CH. DE MONTRÉAL O.|#6 MASSON-ANGERS (GATINEAU), QUEBEC, #23226947</div>`)[0];
+            popup_d53b4095059d4783b0a0f1cf97b5385a.setContent(html_9e1a3409482f4e10b11f69dbe62a9c93);
+        
+
+        circle_marker_fa10b9cd0f8545a3a64f67b9e29cb518.bindPopup(popup_d53b4095059d4783b0a0f1cf97b5385a)
+        ;
+
+        
+    
+    
+            var circle_marker_6236fc18119140a4bfc33005c4b6eab2 = L.circleMarker(
+                [45.40232879999999, -75.80635749999999],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_de5c7503a0d3467f96fb054db5310b19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_168a319abfc045529bb32a12217ce9a7 = $(`<div id="html_168a319abfc045529bb32a12217ce9a7" style="width: 100.0%; height: 100.0%;">$184,999.00,  9 RUE ARTHUR-GRAVELINE|#1 AYLMER (GATINEAU), QUEBEC, #10707198</div>`)[0];
+            popup_de5c7503a0d3467f96fb054db5310b19.setContent(html_168a319abfc045529bb32a12217ce9a7);
+        
+
+        circle_marker_6236fc18119140a4bfc33005c4b6eab2.bindPopup(popup_de5c7503a0d3467f96fb054db5310b19)
+        ;
+
+        
+    
+    
+            var circle_marker_a0ca15a9e2e54c3580f7c8243692d367 = L.circleMarker(
+                [45.4340805, -75.65261753580009],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_6c8b56c7972f4e8aa63b186dc760cfc9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76074b7001ce47ccbaac5084d2fe7ac8 = $(`<div id="html_76074b7001ce47ccbaac5084d2fe7ac8" style="width: 100.0%; height: 100.0%;">$125,000.00,  392 BLAKE BOULEVARD UNIT#1 OTTAWA, ONTARIO, #1147865 </div>`)[0];
+            popup_6c8b56c7972f4e8aa63b186dc760cfc9.setContent(html_76074b7001ce47ccbaac5084d2fe7ac8);
+        
+
+        circle_marker_a0ca15a9e2e54c3580f7c8243692d367.bindPopup(popup_6c8b56c7972f4e8aa63b186dc760cfc9)
+        ;
+
+        
+    
+    
+            var circle_marker_54c6d34a729f4805a38b7afbf52a969f = L.circleMarker(
+                [45.47548145, -75.6904389],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_619c36b146cd458ebaf3c3fa7e824554 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_159a9dc658664d54ac698ffe0c45efab = $(`<div id="html_159a9dc658664d54ac698ffe0c45efab" style="width: 100.0%; height: 100.0%;">$125,000.00,  139-E CH. DE LA SAVANE|#5 GATINEAU (GATINEAU), QUEBEC, #20436123</div>`)[0];
+            popup_619c36b146cd458ebaf3c3fa7e824554.setContent(html_159a9dc658664d54ac698ffe0c45efab);
+        
+
+        circle_marker_54c6d34a729f4805a38b7afbf52a969f.bindPopup(popup_619c36b146cd458ebaf3c3fa7e824554)
+        ;
+
+        
+    
+    
+            var circle_marker_899ddb46ecda427ab3e2efd3e4b7bf89 = L.circleMarker(
+                [45.3628326, -75.7109865],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_22b0a6258174418fa7e5a812f30963fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45ce31dee53249af9ef0730b76606e6c = $(`<div id="html_45ce31dee53249af9ef0730b76606e6c" style="width: 100.0%; height: 100.0%;">$149,900.00,  1356 MEADOWLANDS DRIVE UNIT#211 OTTAWA, ONTARIO, #1152467 </div>`)[0];
+            popup_22b0a6258174418fa7e5a812f30963fb.setContent(html_45ce31dee53249af9ef0730b76606e6c);
+        
+
+        circle_marker_899ddb46ecda427ab3e2efd3e4b7bf89.bindPopup(popup_22b0a6258174418fa7e5a812f30963fb)
+        ;
+
+        
+    
+    
+            var circle_marker_ce01bdfdb93c4769a6eace8b1b8d8094 = L.circleMarker(
+                [45.3790725, -75.65479977159929],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_af5626c9de9d4ec797e9c698b0e2b0ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41b861802b6f49f69da24d8e5e7d32e4 = $(`<div id="html_41b861802b6f49f69da24d8e5e7d32e4" style="width: 100.0%; height: 100.0%;">$180,000.00,  1440 HERON ROAD UNIT#404 OTTAWA, ONTARIO, #1165617 </div>`)[0];
+            popup_af5626c9de9d4ec797e9c698b0e2b0ca.setContent(html_41b861802b6f49f69da24d8e5e7d32e4);
+        
+
+        circle_marker_ce01bdfdb93c4769a6eace8b1b8d8094.bindPopup(popup_af5626c9de9d4ec797e9c698b0e2b0ca)
+        ;
+
+        
+    
+    
+            var circle_marker_f464ec444642487791f5bfb667378e58 = L.circleMarker(
+                [45.5213493, -75.49410970000001],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_5165e8ed54bf4caab3914cf9ab6687ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_410751f204bf4c22adc80fdee062403a = $(`<div id="html_410751f204bf4c22adc80fdee062403a" style="width: 100.0%; height: 100.0%;">$184,999.00,  176 RUE DES SARCELLES MASSON-ANGERS (GATINEAU), QUEBEC, #25614306</div>`)[0];
+            popup_5165e8ed54bf4caab3914cf9ab6687ad.setContent(html_410751f204bf4c22adc80fdee062403a);
+        
+
+        circle_marker_f464ec444642487791f5bfb667378e58.bindPopup(popup_5165e8ed54bf4caab3914cf9ab6687ad)
+        ;
+
+        
+    
+    
+            var circle_marker_bb975a8b61e645f1ad78b3dbc035dea0 = L.circleMarker(
+                [1.1111, 1.1111],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_211eb7ac5ca74336ade94a3766373636 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8088b31146824c0e91df3da70da3dc1b = $(`<div id="html_8088b31146824c0e91df3da70da3dc1b" style="width: 100.0%; height: 100.0%;">$144,900.00,  1050 CH. DE MONTRÉAL O.|#6 MASSON-ANGERS (GATINEAU), QUEBEC, #19583879</div>`)[0];
+            popup_211eb7ac5ca74336ade94a3766373636.setContent(html_8088b31146824c0e91df3da70da3dc1b);
+        
+
+        circle_marker_bb975a8b61e645f1ad78b3dbc035dea0.bindPopup(popup_211eb7ac5ca74336ade94a3766373636)
+        ;
+
+        
+    
+    
+            var circle_marker_5e2a1a91603b451caad42bf7f066b4cd = L.circleMarker(
+                [45.4590772, -75.7014274522081],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_67fa7cf928e2492e9b3013b81deafb0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50ddb0d63a6349168c25e9d92d1c23c8 = $(`<div id="html_50ddb0d63a6349168c25e9d92d1c23c8" style="width: 100.0%; height: 100.0%;">$179,900.00,  16 RUE COUSINEAU GATINEAU (GATINEAU), QUEBEC, #20921063</div>`)[0];
+            popup_67fa7cf928e2492e9b3013b81deafb0b.setContent(html_50ddb0d63a6349168c25e9d92d1c23c8);
+        
+
+        circle_marker_5e2a1a91603b451caad42bf7f066b4cd.bindPopup(popup_67fa7cf928e2492e9b3013b81deafb0b)
+        ;
+
+        
+    
+    
+            var circle_marker_77db81e4d22a4a85b0ccbb2c3cd1f3a6 = L.circleMarker(
+                [45.503432000000004, -75.59093777160491],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_9f550d576e1146ba9f9e90657f208b08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35398a30a80b41dbb2f07932fb9d7c91 = $(`<div id="html_35398a30a80b41dbb2f07932fb9d7c91" style="width: 100.0%; height: 100.0%;">$199,000.00,  1174 RUE MAX GATINEAU (GATINEAU), QUEBEC, #9349180 </div>`)[0];
+            popup_9f550d576e1146ba9f9e90657f208b08.setContent(html_35398a30a80b41dbb2f07932fb9d7c91);
+        
+
+        circle_marker_77db81e4d22a4a85b0ccbb2c3cd1f3a6.bindPopup(popup_9f550d576e1146ba9f9e90657f208b08)
+        ;
+
+        
+    
+    
+            var circle_marker_b537070261904426a2029290e0a8606b = L.circleMarker(
+                [1.1111, 1.1111],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_7808506dd30a4691990ccebfa14bccba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17fe1c7905d1447da40b88f37357afce = $(`<div id="html_17fe1c7905d1447da40b88f37357afce" style="width: 100.0%; height: 100.0%;">$148,900.00,  385 BOUL. DES GRIVES|#1 HULL (GATINEAU), QUEBEC, #20058606</div>`)[0];
+            popup_7808506dd30a4691990ccebfa14bccba.setContent(html_17fe1c7905d1447da40b88f37357afce);
+        
+
+        circle_marker_b537070261904426a2029290e0a8606b.bindPopup(popup_7808506dd30a4691990ccebfa14bccba)
+        ;
+
+        
+    
+    
+            var circle_marker_11dfe2c53f9f4f0cbcac796a7ab0cecb = L.circleMarker(
+                [1.1111, 1.1111],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_9dd933ec876f4b9486e0a5c00d58c1fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f423589637f462596fd66bff8ac25cc = $(`<div id="html_0f423589637f462596fd66bff8ac25cc" style="width: 100.0%; height: 100.0%;">$129,900.00,  45 11E AVENUE O. GATINEAU (GATINEAU), QUEBEC, #24702444</div>`)[0];
+            popup_9dd933ec876f4b9486e0a5c00d58c1fb.setContent(html_0f423589637f462596fd66bff8ac25cc);
+        
+
+        circle_marker_11dfe2c53f9f4f0cbcac796a7ab0cecb.bindPopup(popup_9dd933ec876f4b9486e0a5c00d58c1fb)
+        ;
+
+        
+    
+    
+            var circle_marker_950d413b1f944e5daa2c5647c661aeb0 = L.circleMarker(
+                [45.4806425, -75.6336015442873],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_16154608a2714d9ca7c72ec3ddbc5f06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_063853f2052641299d9c44b72870ba38 = $(`<div id="html_063853f2052641299d9c44b72870ba38" style="width: 100.0%; height: 100.0%;">$194,500.00,  512 RUE NOTRE-DAME GATINEAU (GATINEAU), QUEBEC, #25643882</div>`)[0];
+            popup_16154608a2714d9ca7c72ec3ddbc5f06.setContent(html_063853f2052641299d9c44b72870ba38);
+        
+
+        circle_marker_950d413b1f944e5daa2c5647c661aeb0.bindPopup(popup_16154608a2714d9ca7c72ec3ddbc5f06)
+        ;
+
+        
+    
+    
+            var circle_marker_627497a8f2194754a737630c07c728d4 = L.circleMarker(
+                [1.1111, 1.1111],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_8289fb034eae4d5d816e5e1440f20b56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7f255e5401c476ba36a24f7a5a73d2a = $(`<div id="html_c7f255e5401c476ba36a24f7a5a73d2a" style="width: 100.0%; height: 100.0%;">$149,900.00,  1734 COUNTY 1 ROAD HALLVILLE, ONTARIO, #1164985 </div>`)[0];
+            popup_8289fb034eae4d5d816e5e1440f20b56.setContent(html_c7f255e5401c476ba36a24f7a5a73d2a);
+        
+
+        circle_marker_627497a8f2194754a737630c07c728d4.bindPopup(popup_8289fb034eae4d5d816e5e1440f20b56)
+        ;
+
+        
+    
+    
+            var circle_marker_dfe9d621c5e440aea87dd21e3f65c59d = L.circleMarker(
+                [45.383626, -75.6436872845528],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_d6f81bd2cfb34b649ee8c6c3a1fc6ce4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52c1e7cccab34e0e95585442cad6ef08 = $(`<div id="html_52c1e7cccab34e0e95585442cad6ef08" style="width: 100.0%; height: 100.0%;">$186,000.00,  2400 VIRGINIA DRIVE UNIT#904 OTTAWA, ONTARIO, #1165160 </div>`)[0];
+            popup_d6f81bd2cfb34b649ee8c6c3a1fc6ce4.setContent(html_52c1e7cccab34e0e95585442cad6ef08);
+        
+
+        circle_marker_dfe9d621c5e440aea87dd21e3f65c59d.bindPopup(popup_d6f81bd2cfb34b649ee8c6c3a1fc6ce4)
+        ;
+
+        
+    
+    
+            var circle_marker_1fbe69e619b8405b83f030de25a820c7 = L.circleMarker(
+                [45.3399376, -75.6342238963981],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_42bf2d60461c465eac4e2bb8a7e810d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea547a83370842419feaa0a522418e37 = $(`<div id="html_ea547a83370842419feaa0a522418e37" style="width: 100.0%; height: 100.0%;">$200,000.00,  3554 ALADDIN LANE OTTAWA, ONTARIO, #1165513 </div>`)[0];
+            popup_42bf2d60461c465eac4e2bb8a7e810d0.setContent(html_ea547a83370842419feaa0a522418e37);
+        
+
+        circle_marker_1fbe69e619b8405b83f030de25a820c7.bindPopup(popup_42bf2d60461c465eac4e2bb8a7e810d0)
+        ;
+
+        
+    
+    
+            var circle_marker_95df98bcb3cd4168959d89110be6815e = L.circleMarker(
+                [1.1111, -75.53293871174259],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_a3e6f88fd24a4415a0b00fc13c352cad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_642a7822b2b2491ea1de2709e64fd6ca = $(`<div id="html_642a7822b2b2491ea1de2709e64fd6ca" style="width: 100.0%; height: 100.0%;">$142,900.00,  6532 BILBERRY DRIVE UNIT#111 OTTAWA, ONTARIO, #1165400 </div>`)[0];
+            popup_a3e6f88fd24a4415a0b00fc13c352cad.setContent(html_642a7822b2b2491ea1de2709e64fd6ca);
+        
+
+        circle_marker_95df98bcb3cd4168959d89110be6815e.bindPopup(popup_a3e6f88fd24a4415a0b00fc13c352cad)
+        ;
+
+        
+    
+    
+            var circle_marker_d23079b2918c4a8d8e226215ec66ff1f = L.circleMarker(
+                [45.4415255, -75.8103801693548],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_0b363b61e17d466080006a14593506fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_40b6e150b457431689a491283080a01e = $(`<div id="html_40b6e150b457431689a491283080a01e" style="width: 100.0%; height: 100.0%;">$162,700.00,  15 RUE DU CONSERVATOIRE|#1 AYLMER (GATINEAU), QUEBEC, #25498310</div>`)[0];
+            popup_0b363b61e17d466080006a14593506fe.setContent(html_40b6e150b457431689a491283080a01e);
+        
+
+        circle_marker_d23079b2918c4a8d8e226215ec66ff1f.bindPopup(popup_0b363b61e17d466080006a14593506fe)
+        ;
+
+        
+    
+    
+            var circle_marker_44fdf1c4fd084dcf936ba039293143c0 = L.circleMarker(
+                [45.2746635, -75.75897875414829],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_5230e8313d5c4fc09c8d17e61ec98b11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b7fdb20af794242a336daf7af5ee786 = $(`<div id="html_9b7fdb20af794242a336daf7af5ee786" style="width: 100.0%; height: 100.0%;">$179,900.00,  1 VANESSA TERRACE UNIT#A OTTAWA, ONTARIO, #1165387 </div>`)[0];
+            popup_5230e8313d5c4fc09c8d17e61ec98b11.setContent(html_9b7fdb20af794242a336daf7af5ee786);
+        
+
+        circle_marker_44fdf1c4fd084dcf936ba039293143c0.bindPopup(popup_5230e8313d5c4fc09c8d17e61ec98b11)
+        ;
+
+        
+    
+    
+            var circle_marker_05ad7df122394941b38b270549867af0 = L.circleMarker(
+                [45.55786442867289, -75.6183252729064],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_74ea41ead6f141968e39307d2f85e0ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4bb446926a6245e0b1ab04e0af14b9f8 = $(`<div id="html_4bb446926a6245e0b1ab04e0af14b9f8" style="width: 100.0%; height: 100.0%;">$199,900.00,  16 RUE PÉRINEAULT|#B VAL-DES-MONTS, QUEBEC, #20588328</div>`)[0];
+            popup_74ea41ead6f141968e39307d2f85e0ce.setContent(html_4bb446926a6245e0b1ab04e0af14b9f8);
+        
+
+        circle_marker_05ad7df122394941b38b270549867af0.bindPopup(popup_74ea41ead6f141968e39307d2f85e0ce)
+        ;
+
+        
+    
+    
+            var circle_marker_5dced3b760004b33aa86186119ecb7db = L.circleMarker(
+                [1.1111, 1.1111],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_298a6ab3ea09444eb265ca9db98b6487 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f561720f5fc4c4682aada0074d445c9 = $(`<div id="html_7f561720f5fc4c4682aada0074d445c9" style="width: 100.0%; height: 100.0%;">$129,900.00,  462 BOUL. ALEXANDRE-TACHÉ|#207 HULL (GATINEAU), QUEBEC, #24812438</div>`)[0];
+            popup_298a6ab3ea09444eb265ca9db98b6487.setContent(html_7f561720f5fc4c4682aada0074d445c9);
+        
+
+        circle_marker_5dced3b760004b33aa86186119ecb7db.bindPopup(popup_298a6ab3ea09444eb265ca9db98b6487)
+        ;
+
+        
+    
+    
+            var circle_marker_6daa3ab088744f379797e29b5e5a7e3b = L.circleMarker(
+                [45.28219585, -75.7549819451648],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_b504f6b4c2c94d9ea43b1fdb2fa171c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3aa5a1d52cd44763b3eba4e92934df1a = $(`<div id="html_3aa5a1d52cd44763b3eba4e92934df1a" style="width: 100.0%; height: 100.0%;">$189,900.00,  63 THISTLEDOWN COURT OTTAWA, ONTARIO, #1146083 </div>`)[0];
+            popup_b504f6b4c2c94d9ea43b1fdb2fa171c9.setContent(html_3aa5a1d52cd44763b3eba4e92934df1a);
+        
+
+        circle_marker_6daa3ab088744f379797e29b5e5a7e3b.bindPopup(popup_b504f6b4c2c94d9ea43b1fdb2fa171c9)
+        ;
+
+        
+    
+    
+            var circle_marker_9360987f921d4e54bdf9acb4cddc6da8 = L.circleMarker(
+                [48.392415500000006, -89.2412465],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_200827da7c3d466ca071d2ea8740f560 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55a036d6be884112adc3876c2a46e365 = $(`<div id="html_55a036d6be884112adc3876c2a46e365" style="width: 100.0%; height: 100.0%;">$183,900.00,  1440 HERON STREET UNIT#907 OTTAWA, ONTARIO, #1152029 </div>`)[0];
+            popup_200827da7c3d466ca071d2ea8740f560.setContent(html_55a036d6be884112adc3876c2a46e365);
+        
+
+        circle_marker_9360987f921d4e54bdf9acb4cddc6da8.bindPopup(popup_200827da7c3d466ca071d2ea8740f560)
+        ;
+
+        
+    
+    
+            var circle_marker_bb26b26d11bf450591a6bc1b828ae28d = L.circleMarker(
+                [45.49077505, -75.69487045],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_aca78c25127f4fbaa5700d48fdfe9146 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_595299f16d054bdfa117e0d0858ed194 = $(`<div id="html_595299f16d054bdfa117e0d0858ed194" style="width: 100.0%; height: 100.0%;">$144,900.00,  200 RUE DE MORENCY|#102 GATINEAU (GATINEAU), QUEBEC, #11059390</div>`)[0];
+            popup_aca78c25127f4fbaa5700d48fdfe9146.setContent(html_595299f16d054bdfa117e0d0858ed194);
+        
+
+        circle_marker_bb26b26d11bf450591a6bc1b828ae28d.bindPopup(popup_aca78c25127f4fbaa5700d48fdfe9146)
+        ;
+
+        
+    
+    
+            var circle_marker_d7e0ede6c8c249ec97789fa0283816d6 = L.circleMarker(
+                [1.1111, 1.1111],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_9e1a4a0e1a0145d793008ed2a0f30743 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c65d868d017488f86ab16848fa37643 = $(`<div id="html_9c65d868d017488f86ab16848fa37643" style="width: 100.0%; height: 100.0%;">$99,900.00,  9 3E AVENUE O. GATINEAU (GATINEAU), QUEBEC, #25399974</div>`)[0];
+            popup_9e1a4a0e1a0145d793008ed2a0f30743.setContent(html_9c65d868d017488f86ab16848fa37643);
+        
+
+        circle_marker_d7e0ede6c8c249ec97789fa0283816d6.bindPopup(popup_9e1a4a0e1a0145d793008ed2a0f30743)
+        ;
+
+        
+    
+    
+            var circle_marker_47d8b853c0844c31bc6b3015eca06a3d = L.circleMarker(
+                [45.404011499999996, -75.8519256273148],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_47599c25d1744cb3af1a937c200e79ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e3a9a97daa9466c9145eae7d0ce5a9b = $(`<div id="html_7e3a9a97daa9466c9145eae7d0ce5a9b" style="width: 100.0%; height: 100.0%;">$189,900.00,  29 RUE CORMIER AYLMER (GATINEAU), QUEBEC, #11137406</div>`)[0];
+            popup_47599c25d1744cb3af1a937c200e79ee.setContent(html_7e3a9a97daa9466c9145eae7d0ce5a9b);
+        
+
+        circle_marker_47d8b853c0844c31bc6b3015eca06a3d.bindPopup(popup_47599c25d1744cb3af1a937c200e79ee)
+        ;
+
+        
+    
+    
+            var circle_marker_aea95f8b47494dacacda0c87dbe68b2e = L.circleMarker(
+                [45.33293045, 1.1111],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_2495d7b099cb4022ab0210a41ee422eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_705dfe11a8524cbd9389c76342bbda42 = $(`<div id="html_705dfe11a8524cbd9389c76342bbda42" style="width: 100.0%; height: 100.0%;">$199,900.00,  9 WOODVALE GREEN UNIT#D OTTAWA, ONTARIO, #1164723 </div>`)[0];
+            popup_2495d7b099cb4022ab0210a41ee422eb.setContent(html_705dfe11a8524cbd9389c76342bbda42);
+        
+
+        circle_marker_aea95f8b47494dacacda0c87dbe68b2e.bindPopup(popup_2495d7b099cb4022ab0210a41ee422eb)
+        ;
+
+        
+    
+    
+            var circle_marker_db0e2118395d4ceeb5531b0a233d416f = L.circleMarker(
+                [45.4899285, -75.6720900296342],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_dc96b452b70b473e8affe003864c1fe4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1aaf8a403a74e3f8f77ba2a57e6fb10 = $(`<div id="html_a1aaf8a403a74e3f8f77ba2a57e6fb10" style="width: 100.0%; height: 100.0%;">$199,900.00,  522 RUE COULOMBE GATINEAU (GATINEAU), QUEBEC, #18570338</div>`)[0];
+            popup_dc96b452b70b473e8affe003864c1fe4.setContent(html_a1aaf8a403a74e3f8f77ba2a57e6fb10);
+        
+
+        circle_marker_db0e2118395d4ceeb5531b0a233d416f.bindPopup(popup_dc96b452b70b473e8affe003864c1fe4)
+        ;
+
+        
+    
+    
+            var circle_marker_65b1ae4ef6ff45c689507cf85cf98d9d = L.circleMarker(
+                [45.302662100000006, -75.8814171],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_cba04ecba21345d2a1c9d01371277454 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd4baf667350418b99b4009e1e767e58 = $(`<div id="html_dd4baf667350418b99b4009e1e767e58" style="width: 100.0%; height: 100.0%;">$170,000.00,  1202 TANGUAY COURT OTTAWA, ONTARIO, #1164858 </div>`)[0];
+            popup_cba04ecba21345d2a1c9d01371277454.setContent(html_dd4baf667350418b99b4009e1e767e58);
+        
+
+        circle_marker_65b1ae4ef6ff45c689507cf85cf98d9d.bindPopup(popup_cba04ecba21345d2a1c9d01371277454)
+        ;
+
+        
+    
+    
+            var circle_marker_3d19b6b23893469e8e10581b24d03a8d = L.circleMarker(
+                [45.395773999999996, -75.6113035288298],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_ae338efc267e44769c6d3c67fe89b02e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91c98ae38c7044d9bc7897f30017b9a0 = $(`<div id="html_91c98ae38c7044d9bc7897f30017b9a0" style="width: 100.0%; height: 100.0%;">$164,900.00,  2630 SOUTHVALE COURT UNIT#109 OTTAWA, ONTARIO, #1164806 </div>`)[0];
+            popup_ae338efc267e44769c6d3c67fe89b02e.setContent(html_91c98ae38c7044d9bc7897f30017b9a0);
+        
+
+        circle_marker_3d19b6b23893469e8e10581b24d03a8d.bindPopup(popup_ae338efc267e44769c6d3c67fe89b02e)
+        ;
+
+        
+    
+    
+            var circle_marker_fabc843dc6e14860a67718a6f2800196 = L.circleMarker(
+                [1.1111, 1.1111],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_ed348a8a12a742b68d2db268cbd9c6b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25ad6bfca78947428bfcf85e8d013ca8 = $(`<div id="html_25ad6bfca78947428bfcf85e8d013ca8" style="width: 100.0%; height: 100.0%;">$129,999.00,  40 11E AVENUE O. GATINEAU (GATINEAU), QUEBEC, #12658687</div>`)[0];
+            popup_ed348a8a12a742b68d2db268cbd9c6b4.setContent(html_25ad6bfca78947428bfcf85e8d013ca8);
+        
+
+        circle_marker_fabc843dc6e14860a67718a6f2800196.bindPopup(popup_ed348a8a12a742b68d2db268cbd9c6b4)
+        ;
+
+        
+    
+    
+            var circle_marker_a810cb1f71df4b79a6f93068cecab376 = L.circleMarker(
+                [45.4972849, -75.6057728],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_a070501ac0a54c398cb5e80b1d90bcaa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0a22bf43d124cc19819aa49a827940c = $(`<div id="html_e0a22bf43d124cc19819aa49a827940c" style="width: 100.0%; height: 100.0%;">$189,900.00,  71 RUE LAFLEUR GATINEAU (GATINEAU), QUEBEC, #23892112</div>`)[0];
+            popup_a070501ac0a54c398cb5e80b1d90bcaa.setContent(html_e0a22bf43d124cc19819aa49a827940c);
+        
+
+        circle_marker_a810cb1f71df4b79a6f93068cecab376.bindPopup(popup_a070501ac0a54c398cb5e80b1d90bcaa)
+        ;
+
+        
+    
+    
+            var circle_marker_c9e769f5eb8046de8a8d5c1733475000 = L.circleMarker(
+                [1.1111, 1.1111],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_81cc2868bc734311bffe0e6c5b82c2dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb01df6c16dd41eba6b6597bdea1abfc = $(`<div id="html_bb01df6c16dd41eba6b6597bdea1abfc" style="width: 100.0%; height: 100.0%;">$134,900.00,  54 11E AVENUE O. GATINEAU (GATINEAU), QUEBEC, #22637204</div>`)[0];
+            popup_81cc2868bc734311bffe0e6c5b82c2dd.setContent(html_bb01df6c16dd41eba6b6597bdea1abfc);
+        
+
+        circle_marker_c9e769f5eb8046de8a8d5c1733475000.bindPopup(popup_81cc2868bc734311bffe0e6c5b82c2dd)
+        ;
+
+        
+    
+    
+            var circle_marker_2eb7c35281ac444e884c6d8b4a678937 = L.circleMarker(
+                [45.325753000000006, -75.83012663625729],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_ba39986189514c238c551dd6074c74b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a71bd1023c34268bfd4b2f123e87f3d = $(`<div id="html_8a71bd1023c34268bfd4b2f123e87f3d" style="width: 100.0%; height: 100.0%;">$129,900.00,  17 PANAMA AVENUE NEPEAN, ONTARIO, #1160571 </div>`)[0];
+            popup_ba39986189514c238c551dd6074c74b3.setContent(html_8a71bd1023c34268bfd4b2f123e87f3d);
+        
+
+        circle_marker_2eb7c35281ac444e884c6d8b4a678937.bindPopup(popup_ba39986189514c238c551dd6074c74b3)
+        ;
+
+        
+    
+    
+            var circle_marker_5c83322730e343cfb54afee4b31a6709 = L.circleMarker(
+                [45.363578000000004, -75.6311641903226],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_1818181f822a4cdab4aca0864ae3b751 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d3f99cfaf8440f0bfa0522a580ad312 = $(`<div id="html_1d3f99cfaf8440f0bfa0522a580ad312" style="width: 100.0%; height: 100.0%;">$179,900.00,  268 LORRY GREENBERG DRIVE UNIT#204 OTTAWA, ONTARIO, #1163401 </div>`)[0];
+            popup_1818181f822a4cdab4aca0864ae3b751.setContent(html_1d3f99cfaf8440f0bfa0522a580ad312);
+        
+
+        circle_marker_5c83322730e343cfb54afee4b31a6709.bindPopup(popup_1818181f822a4cdab4aca0864ae3b751)
+        ;
+
+        
+    
+    
+            var circle_marker_b73a5b6704d349d6b02e145f74b3a65c = L.circleMarker(
+                [45.44576445, -75.62282368763229],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_1067f14b699540dcad8f0644bf60d4a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d4af2a1a72cb43dda061e7574bcc1e97 = $(`<div id="html_d4af2a1a72cb43dda061e7574bcc1e97" style="width: 100.0%; height: 100.0%;">$196,000.00,  665 BATHGATE DRIVE UNIT#1609 OTTAWA, ONTARIO, #1164489 </div>`)[0];
+            popup_1067f14b699540dcad8f0644bf60d4a5.setContent(html_d4af2a1a72cb43dda061e7574bcc1e97);
+        
+
+        circle_marker_b73a5b6704d349d6b02e145f74b3a65c.bindPopup(popup_1067f14b699540dcad8f0644bf60d4a5)
+        ;
+
+        
+    
+    
+            var circle_marker_fdf5dc2ed1384826b88aad1bf4179516 = L.circleMarker(
+                [45.422615500000006, -75.7605853763441],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_e0ca2500aee74902923910e26cfc9091 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a74c6919a9b14f999fee1fe71d0bfc27 = $(`<div id="html_a74c6919a9b14f999fee1fe71d0bfc27" style="width: 100.0%; height: 100.0%;">$144,900.00,  2 IMP. DES LILAS|#6 HULL (GATINEAU), QUEBEC, #25385673</div>`)[0];
+            popup_e0ca2500aee74902923910e26cfc9091.setContent(html_a74c6919a9b14f999fee1fe71d0bfc27);
+        
+
+        circle_marker_fdf5dc2ed1384826b88aad1bf4179516.bindPopup(popup_e0ca2500aee74902923910e26cfc9091)
+        ;
+
+        
+    
+    
+            var circle_marker_01ad25ad16354eff859eeec7b48ad341 = L.circleMarker(
+                [45.4397295, -75.5936802800887],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_7e5d96c242cd480c933e89d1de47729e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_babb334ca90e4774acac124026027fbe = $(`<div id="html_babb334ca90e4774acac124026027fbe" style="width: 100.0%; height: 100.0%;">$154,900.00,  2020 JASMINE CRESCENT UNIT#506 GLOUCESTER, ONTARIO, #1164628 </div>`)[0];
+            popup_7e5d96c242cd480c933e89d1de47729e.setContent(html_babb334ca90e4774acac124026027fbe);
+        
+
+        circle_marker_01ad25ad16354eff859eeec7b48ad341.bindPopup(popup_7e5d96c242cd480c933e89d1de47729e)
+        ;
+
+        
+    
+    
+            var circle_marker_1d5cefa000f24c52868bd47055a94cf4 = L.circleMarker(
+                [45.363323, -75.63363134361391],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_be84860a2fd34d799addb505d4dd531b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e81c0ebb98ba4b448586d6c93d2d892f = $(`<div id="html_e81c0ebb98ba4b448586d6c93d2d892f" style="width: 100.0%; height: 100.0%;">$179,900.00,  318 LORRY GREENBERG DRIVE UNIT#109 OTTAWA, ONTARIO, #1164851 </div>`)[0];
+            popup_be84860a2fd34d799addb505d4dd531b.setContent(html_e81c0ebb98ba4b448586d6c93d2d892f);
+        
+
+        circle_marker_1d5cefa000f24c52868bd47055a94cf4.bindPopup(popup_be84860a2fd34d799addb505d4dd531b)
+        ;
+
+        
+    
+    
+            var circle_marker_b150ec18cce848f7804dd4e63ff3de45 = L.circleMarker(
+                [45.4345485, -75.7202101165379],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_d826d32d10f547c3a34a3935640aaeda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_905624b3eb2547b6b6d2ec20f2340534 = $(`<div id="html_905624b3eb2547b6b6d2ec20f2340534" style="width: 100.0%; height: 100.0%;">$189,900.00,  49 RUE ST-HENRI HULL (GATINEAU), QUEBEC, #11917734</div>`)[0];
+            popup_d826d32d10f547c3a34a3935640aaeda.setContent(html_905624b3eb2547b6b6d2ec20f2340534);
+        
+
+        circle_marker_b150ec18cce848f7804dd4e63ff3de45.bindPopup(popup_d826d32d10f547c3a34a3935640aaeda)
+        ;
+
+        
+    
+    
+            var circle_marker_d19fe14600e94d1db175da39f8eace22 = L.circleMarker(
+                [45.43920515, -75.5942500824553],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_54816d3387eb4b809458cd0a354a4d11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ed6b70c7a0548c7a6369721f29a6abb = $(`<div id="html_4ed6b70c7a0548c7a6369721f29a6abb" style="width: 100.0%; height: 100.0%;">$189,900.00,  2000 JASMINE CRESCENT UNIT#803 OTTAWA, ONTARIO, #1159797 </div>`)[0];
+            popup_54816d3387eb4b809458cd0a354a4d11.setContent(html_4ed6b70c7a0548c7a6369721f29a6abb);
+        
+
+        circle_marker_d19fe14600e94d1db175da39f8eace22.bindPopup(popup_54816d3387eb4b809458cd0a354a4d11)
+        ;
+
+        
+    
+    
+            var circle_marker_7a245f34ebe84bf281b46c3a65c1910a = L.circleMarker(
+                [45.3696165, -75.702946930147],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_d96db6276cf5436fae2bb734d4c53c7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_766ea6e8cc984f51a184a2e70f0cbb6b = $(`<div id="html_766ea6e8cc984f51a184a2e70f0cbb6b" style="width: 100.0%; height: 100.0%;">$189,900.00,  1380 PRINCE OF WALES DRIVE UNIT#2101 OTTAWA, ONTARIO, #1155336 </div>`)[0];
+            popup_d96db6276cf5436fae2bb734d4c53c7d.setContent(html_766ea6e8cc984f51a184a2e70f0cbb6b);
+        
+
+        circle_marker_7a245f34ebe84bf281b46c3a65c1910a.bindPopup(popup_d96db6276cf5436fae2bb734d4c53c7d)
+        ;
+
+        
+    
+    
+            var circle_marker_51d9fac782c44f67be877060eb7aef55 = L.circleMarker(
+                [45.4311412, -75.6639469],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_a3c009f3b2424dd8aec3f0ab60594c13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02348c19143c419699c0c67107daf456 = $(`<div id="html_02348c19143c419699c0c67107daf456" style="width: 100.0%; height: 100.0%;">$199,900.00,  158B MCARTHUR AVENUE UNIT#803 OTTAWA, ONTARIO, #1154884 </div>`)[0];
+            popup_a3c009f3b2424dd8aec3f0ab60594c13.setContent(html_02348c19143c419699c0c67107daf456);
+        
+
+        circle_marker_51d9fac782c44f67be877060eb7aef55.bindPopup(popup_a3c009f3b2424dd8aec3f0ab60594c13)
+        ;
+
+        
+    
+    
+            var circle_marker_8a08fa4c470346d3b2c62b6338beeea5 = L.circleMarker(
+                [45.4687203, -75.7248119068602],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_bf5461c1dd5048cdb5cbf6b81f3b5aa7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36fed05308f44a008ce5ff4571beebf1 = $(`<div id="html_36fed05308f44a008ce5ff4571beebf1" style="width: 100.0%; height: 100.0%;">$175,000.00,  1795 RUE ST-LOUIS|#7 GATINEAU (GATINEAU), QUEBEC, #16467980</div>`)[0];
+            popup_bf5461c1dd5048cdb5cbf6b81f3b5aa7.setContent(html_36fed05308f44a008ce5ff4571beebf1);
+        
+
+        circle_marker_8a08fa4c470346d3b2c62b6338beeea5.bindPopup(popup_bf5461c1dd5048cdb5cbf6b81f3b5aa7)
+        ;
+
+        
+    
+    
+            var circle_marker_532d7d93110049da8e524766364a8044 = L.circleMarker(
+                [45.43920515, -75.5942500824553],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_c55668d3011543468864af253aa0cf53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ad379bf93cc4fe88f9cf04ad5515678 = $(`<div id="html_6ad379bf93cc4fe88f9cf04ad5515678" style="width: 100.0%; height: 100.0%;">$184,900.00,  2000 JASMINE CRESCENT UNIT#416 OTTAWA, ONTARIO, #1150871 </div>`)[0];
+            popup_c55668d3011543468864af253aa0cf53.setContent(html_6ad379bf93cc4fe88f9cf04ad5515678);
+        
+
+        circle_marker_532d7d93110049da8e524766364a8044.bindPopup(popup_c55668d3011543468864af253aa0cf53)
+        ;
+
+        
+    
+    
+            var circle_marker_a1db64069d624780bac6c00918661aec = L.circleMarker(
+                [1.1111, 1.1111],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_12fb353b4faf467babfd74188d1547b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2457a1f5c05542a0b8b8e0e3504a18c2 = $(`<div id="html_2457a1f5c05542a0b8b8e0e3504a18c2" style="width: 100.0%; height: 100.0%;">$139,900.00,  673 BOUL. DES HAUTES-PLAINES|#1 HULL (GATINEAU), QUEBEC, #21910298</div>`)[0];
+            popup_12fb353b4faf467babfd74188d1547b3.setContent(html_2457a1f5c05542a0b8b8e0e3504a18c2);
+        
+
+        circle_marker_a1db64069d624780bac6c00918661aec.bindPopup(popup_12fb353b4faf467babfd74188d1547b3)
+        ;
+
+        
+    
+    
+            var circle_marker_6bebde50038d4005b717cfdc63ff3472 = L.circleMarker(
+                [1.1111, -75.5942500824553],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_30f9b731c42b463d99ebacc539c6b360 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f1760b6379346eb8b3f993080aa1f87 = $(`<div id="html_0f1760b6379346eb8b3f993080aa1f87" style="width: 100.0%; height: 100.0%;">$147,500.00,  2000 JASMINE CRESCENT UNIT#912 OTTAWA, ONTARIO, #1159762 </div>`)[0];
+            popup_30f9b731c42b463d99ebacc539c6b360.setContent(html_0f1760b6379346eb8b3f993080aa1f87);
+        
+
+        circle_marker_6bebde50038d4005b717cfdc63ff3472.bindPopup(popup_30f9b731c42b463d99ebacc539c6b360)
+        ;
+
+        
+    
+    
+            var circle_marker_7ef07f908a8448ae9394c368599a5591 = L.circleMarker(
+                [45.43920515, -75.5942500824553],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_f95fba8ccc3c414fae040e08c9b9c030 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d114ee750024d9ba4cb661177cc1701 = $(`<div id="html_0d114ee750024d9ba4cb661177cc1701" style="width: 100.0%; height: 100.0%;">$169,900.00,  2000 JASMINE CRESCENT UNIT#510 GLOUCESTER, ONTARIO, #1159594 </div>`)[0];
+            popup_f95fba8ccc3c414fae040e08c9b9c030.setContent(html_0d114ee750024d9ba4cb661177cc1701);
+        
+
+        circle_marker_7ef07f908a8448ae9394c368599a5591.bindPopup(popup_f95fba8ccc3c414fae040e08c9b9c030)
+        ;
+
+        
+    
+    
+            var circle_marker_6ce8317bfee04e818b68f8c4708500a5 = L.circleMarker(
+                [1.1111, 1.1111],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_596168e378a04558bb1cfce01c970c57 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1363733f27994c7cac579b1c56041395 = $(`<div id="html_1363733f27994c7cac579b1c56041395" style="width: 100.0%; height: 100.0%;">$140,000.00,  732 BOUL. DES GRIVES HULL (GATINEAU), QUEBEC, #13200074</div>`)[0];
+            popup_596168e378a04558bb1cfce01c970c57.setContent(html_1363733f27994c7cac579b1c56041395);
+        
+
+        circle_marker_6ce8317bfee04e818b68f8c4708500a5.bindPopup(popup_596168e378a04558bb1cfce01c970c57)
+        ;
+
+        
+    
+    
+            var circle_marker_9a792352c5e84f9b88cc5bb36422eaeb = L.circleMarker(
+                [45.492719, -75.740835],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_22f391b90ecd4832aa44d08cb56f34f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21d62ea5d4bb4fb8b8806aa87f367573 = $(`<div id="html_21d62ea5d4bb4fb8b8806aa87f367573" style="width: 100.0%; height: 100.0%;">$194,900.00,  477 RUE DE CANNES|#102 GATINEAU (GATINEAU), QUEBEC, #15403259</div>`)[0];
+            popup_22f391b90ecd4832aa44d08cb56f34f9.setContent(html_21d62ea5d4bb4fb8b8806aa87f367573);
+        
+
+        circle_marker_9a792352c5e84f9b88cc5bb36422eaeb.bindPopup(popup_22f391b90ecd4832aa44d08cb56f34f9)
+        ;
+
+        
+    
+    
+            var circle_marker_212ba239980540c69cb3e73d584fc1e6 = L.circleMarker(
+                [45.502694, -75.674437],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_f5c34875b30148a0831e3d88ec4586b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18bb233c86e9467bb334d35a8701784b = $(`<div id="html_18bb233c86e9467bb334d35a8701784b" style="width: 100.0%; height: 100.0%;">$149,000.00,  511 RUE NOBERT|#3 GATINEAU (GATINEAU), QUEBEC, #21123396</div>`)[0];
+            popup_f5c34875b30148a0831e3d88ec4586b6.setContent(html_18bb233c86e9467bb334d35a8701784b);
+        
+
+        circle_marker_212ba239980540c69cb3e73d584fc1e6.bindPopup(popup_f5c34875b30148a0831e3d88ec4586b6)
+        ;
+
+        
+    
+    
+            var circle_marker_c1797898b4c74636b315152c3b3fefea = L.circleMarker(
+                [45.48285385, -75.6416168809945],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_9a872342410041b5833b5548275b7ecc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c0aee69adba4041956330cf3dc01e3c = $(`<div id="html_3c0aee69adba4041956330cf3dc01e3c" style="width: 100.0%; height: 100.0%;">$109,900.00,  159 RUE BRIAN GATINEAU (GATINEAU), QUEBEC, #10506022</div>`)[0];
+            popup_9a872342410041b5833b5548275b7ecc.setContent(html_3c0aee69adba4041956330cf3dc01e3c);
+        
+
+        circle_marker_c1797898b4c74636b315152c3b3fefea.bindPopup(popup_9a872342410041b5833b5548275b7ecc)
+        ;
+
+        
+    
+    
+            var circle_marker_e287164d28254eeea21661bf026c8945 = L.circleMarker(
+                [45.4021781, -75.85422535322691],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_363b0047f0a8487ab7cdd247ebafa037 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9317f7030b24a7ca1f436ba61c77773 = $(`<div id="html_d9317f7030b24a7ca1f436ba61c77773" style="width: 100.0%; height: 100.0%;">$89,900.00,  77 RUE PEARSON|#402 AYLMER (GATINEAU), QUEBEC, #15650890</div>`)[0];
+            popup_363b0047f0a8487ab7cdd247ebafa037.setContent(html_d9317f7030b24a7ca1f436ba61c77773);
+        
+
+        circle_marker_e287164d28254eeea21661bf026c8945.bindPopup(popup_363b0047f0a8487ab7cdd247ebafa037)
+        ;
+
+        
+    
+    
+            var circle_marker_c36434c688f649dd8fa8ce469a3014b0 = L.circleMarker(
+                [45.4020605, -75.85463855325492],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_29ce5d2296a04c62aed48aa5440b0681 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89f6c8e543874cbd9d7c2efbdf9a7a72 = $(`<div id="html_89f6c8e543874cbd9d7c2efbdf9a7a72" style="width: 100.0%; height: 100.0%;">$89,900.00,  86 RUE FRONT|#402 AYLMER (GATINEAU), QUEBEC, #15195338</div>`)[0];
+            popup_29ce5d2296a04c62aed48aa5440b0681.setContent(html_89f6c8e543874cbd9d7c2efbdf9a7a72);
+        
+
+        circle_marker_c36434c688f649dd8fa8ce469a3014b0.bindPopup(popup_29ce5d2296a04c62aed48aa5440b0681)
+        ;
+
+        
+    
+    
+            var circle_marker_ed640381f9514ffe9c4199cf907ec268 = L.circleMarker(
+                [45.401881599999996, -75.8544636470299],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_99b4e85cb54b421d82eef29a6851ab24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad70d74a96494d4cba3a4d08af858eeb = $(`<div id="html_ad70d74a96494d4cba3a4d08af858eeb" style="width: 100.0%; height: 100.0%;">$89,900.00,  84 RUE FRONT|#203 AYLMER (GATINEAU), QUEBEC, #15931189</div>`)[0];
+            popup_99b4e85cb54b421d82eef29a6851ab24.setContent(html_ad70d74a96494d4cba3a4d08af858eeb);
+        
+
+        circle_marker_ed640381f9514ffe9c4199cf907ec268.bindPopup(popup_99b4e85cb54b421d82eef29a6851ab24)
+        ;
+
+        
+    
+    
+            var circle_marker_fd0bc6e6206c497a951641adba765a10 = L.circleMarker(
+                [45.4885177, -75.60391690000002],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_574980cd30ca4ee798f1432ea42f448c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e36d4483f3745efa3fc5aee5df5b012 = $(`<div id="html_4e36d4483f3745efa3fc5aee5df5b012" style="width: 100.0%; height: 100.0%;">$179,900.00,  8 RUE DE CALUMET GATINEAU (GATINEAU), QUEBEC, #11166601</div>`)[0];
+            popup_574980cd30ca4ee798f1432ea42f448c.setContent(html_4e36d4483f3745efa3fc5aee5df5b012);
+        
+
+        circle_marker_fd0bc6e6206c497a951641adba765a10.bindPopup(popup_574980cd30ca4ee798f1432ea42f448c)
+        ;
+
+        
+    
+    
+            var circle_marker_af66fc89e20448ae9177a49a71f7acb2 = L.circleMarker(
+                [45.43686745, -75.8032066953202],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_ccf67278da884486a1415e03b337f8c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e372fb10312487cb19c4273592ed455 = $(`<div id="html_0e372fb10312487cb19c4273592ed455" style="width: 100.0%; height: 100.0%;">$179,900.00,  10 RUE DE MUNICH|#14 AYLMER (GATINEAU), QUEBEC, #12479813</div>`)[0];
+            popup_ccf67278da884486a1415e03b337f8c4.setContent(html_0e372fb10312487cb19c4273592ed455);
+        
+
+        circle_marker_af66fc89e20448ae9177a49a71f7acb2.bindPopup(popup_ccf67278da884486a1415e03b337f8c4)
+        ;
+
+        
+    
+    
+            var circle_marker_b4dc5b5c1cde4251adad3347048328a1 = L.circleMarker(
+                [45.5283035, -75.4900471634921],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_0ea40d981665411a9e63dfd9484e1b7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e4772be1b36415f90db62357dbfc0a3 = $(`<div id="html_6e4772be1b36415f90db62357dbfc0a3" style="width: 100.0%; height: 100.0%;">$199,998.00,  71 RUE DU BEAUJOLAIS MASSON-ANGERS (GATINEAU), QUEBEC, #23691008</div>`)[0];
+            popup_0ea40d981665411a9e63dfd9484e1b7a.setContent(html_6e4772be1b36415f90db62357dbfc0a3);
+        
+
+        circle_marker_b4dc5b5c1cde4251adad3347048328a1.bindPopup(popup_0ea40d981665411a9e63dfd9484e1b7a)
+        ;
+
+        
+    
+    
+            var circle_marker_d0c47ada930241f99f84e76700fed5fd = L.circleMarker(
+                [45.47963, -75.6399174932473],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_c130206878d849618cd4ed0fc0db7020 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de1fc99074774456a8d7af2f807ab5f7 = $(`<div id="html_de1fc99074774456a8d7af2f807ab5f7" style="width: 100.0%; height: 100.0%;">$99,900.00,  81 RUE SANSCARTIER GATINEAU (GATINEAU), QUEBEC, #15442287</div>`)[0];
+            popup_c130206878d849618cd4ed0fc0db7020.setContent(html_de1fc99074774456a8d7af2f807ab5f7);
+        
+
+        circle_marker_d0c47ada930241f99f84e76700fed5fd.bindPopup(popup_c130206878d849618cd4ed0fc0db7020)
+        ;
+
+        
+    
+    
+            var circle_marker_f73eb6f3888e4097bf36145e1fbd27c8 = L.circleMarker(
+                [45.43629145, -75.8066204],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_4a00dd420b9b456da93d525e5c890a2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9c2e8753acb4611b2a5f785e18917b0 = $(`<div id="html_d9c2e8753acb4611b2a5f785e18917b0" style="width: 100.0%; height: 100.0%;">$159,900.00,  220 RUE DE DUBLIN|#15 AYLMER (GATINEAU), QUEBEC, #24746537</div>`)[0];
+            popup_4a00dd420b9b456da93d525e5c890a2b.setContent(html_d9c2e8753acb4611b2a5f785e18917b0);
+        
+
+        circle_marker_f73eb6f3888e4097bf36145e1fbd27c8.bindPopup(popup_4a00dd420b9b456da93d525e5c890a2b)
+        ;
+
+        
+    
+    
+            var circle_marker_2fa6011fb14941d896ef02da1bdc0698 = L.circleMarker(
+                [1.1111, 1.1111],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_483edabdfa0842efaeefa949848af071 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9bdc96347b34ddb81d661f1dac260b6 = $(`<div id="html_e9bdc96347b34ddb81d661f1dac260b6" style="width: 100.0%; height: 100.0%;">$167,900.00,  701 BOUL. ST-JOSEPH|#11 HULL (GATINEAU), QUEBEC, #23703239</div>`)[0];
+            popup_483edabdfa0842efaeefa949848af071.setContent(html_e9bdc96347b34ddb81d661f1dac260b6);
+        
+
+        circle_marker_2fa6011fb14941d896ef02da1bdc0698.bindPopup(popup_483edabdfa0842efaeefa949848af071)
+        ;
+
+        
+    
+    
+            var circle_marker_a413eb2fd2e24f7a9024ba535e58884e = L.circleMarker(
+                [45.502816499999994, -75.67365471875],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_ff4c1b3cfeec4f928a7d418a8f7f781f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d41049e542084db4be4ba63267069d37 = $(`<div id="html_d41049e542084db4be4ba63267069d37" style="width: 100.0%; height: 100.0%;">$149,500.00,  499 RUE NOBERT|#2 GATINEAU (GATINEAU), QUEBEC, #12014152</div>`)[0];
+            popup_ff4c1b3cfeec4f928a7d418a8f7f781f.setContent(html_d41049e542084db4be4ba63267069d37);
+        
+
+        circle_marker_a413eb2fd2e24f7a9024ba535e58884e.bindPopup(popup_ff4c1b3cfeec4f928a7d418a8f7f781f)
+        ;
+
+        
+    
+    
+            var circle_marker_77a7bb4bd723474bb6336e9fbbc8768d = L.circleMarker(
+                [1.1111, 1.1111],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_08578ad6539148de8dce4408a2a1dd06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2e1cad520b74c2e89015597ef42b4a0 = $(`<div id="html_a2e1cad520b74c2e89015597ef42b4a0" style="width: 100.0%; height: 100.0%;">$179,000.00,  156 BOUL. DE LUCERNE|#308 HULL (GATINEAU), QUEBEC, #18700980</div>`)[0];
+            popup_08578ad6539148de8dce4408a2a1dd06.setContent(html_a2e1cad520b74c2e89015597ef42b4a0);
+        
+
+        circle_marker_77a7bb4bd723474bb6336e9fbbc8768d.bindPopup(popup_08578ad6539148de8dce4408a2a1dd06)
+        ;
+
+        
+    
+    
+            var circle_marker_907730f6a47248b2bb06827ef3b3f593 = L.circleMarker(
+                [1.1111, 1.1111],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_e7fdee31454445b6986e534e48118e20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f257d43b069549d5a2ba98961dc0429e = $(`<div id="html_f257d43b069549d5a2ba98961dc0429e" style="width: 100.0%; height: 100.0%;">$153,900.00,  1462 BOUL. MALONEY E.|#2 GATINEAU (GATINEAU), QUEBEC, #24423890</div>`)[0];
+            popup_e7fdee31454445b6986e534e48118e20.setContent(html_f257d43b069549d5a2ba98961dc0429e);
+        
+
+        circle_marker_907730f6a47248b2bb06827ef3b3f593.bindPopup(popup_e7fdee31454445b6986e534e48118e20)
+        ;
+
+        
+    
+    
+            var circle_marker_0983c19a0c984ce9aeb8203c8f8c8999 = L.circleMarker(
+                [45.440155299999994, -75.70845649304471],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_7b0931b87070458f8db6c3a942e4b172 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc8ce6c7d9bb402592158340ada6bd26 = $(`<div id="html_fc8ce6c7d9bb402592158340ada6bd26" style="width: 100.0%; height: 100.0%;">$149,900.00,  285 RUE LAURIER|#105 HULL (GATINEAU), QUEBEC, #26969327</div>`)[0];
+            popup_7b0931b87070458f8db6c3a942e4b172.setContent(html_fc8ce6c7d9bb402592158340ada6bd26);
+        
+
+        circle_marker_0983c19a0c984ce9aeb8203c8f8c8999.bindPopup(popup_7b0931b87070458f8db6c3a942e4b172)
+        ;
+
+        
+    
+    
+            var circle_marker_67523314b2cf4b9c8e221adf55eaab41 = L.circleMarker(
+                [1.1111, 1.1111],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_43e65bae083b4f81a1c711f7868c4a2e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c7da76447bd47a9a60129a4797dc42b = $(`<div id="html_3c7da76447bd47a9a60129a4797dc42b" style="width: 100.0%; height: 100.0%;">$151,900.00,  285 RUE LAURIER|#706 HULL (GATINEAU), QUEBEC, #27396482</div>`)[0];
+            popup_43e65bae083b4f81a1c711f7868c4a2e.setContent(html_3c7da76447bd47a9a60129a4797dc42b);
+        
+
+        circle_marker_67523314b2cf4b9c8e221adf55eaab41.bindPopup(popup_43e65bae083b4f81a1c711f7868c4a2e)
+        ;
+
+        
+    
+    
+            var circle_marker_d3c0881f000f48b1bd250142a417a34a = L.circleMarker(
+                [45.410546999999994, -75.86368399999999],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_68cf6b2c0f014a809b6df244c0f800a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f56f364fc4e844e99967e2cd392a99d6 = $(`<div id="html_f56f364fc4e844e99967e2cd392a99d6" style="width: 100.0%; height: 100.0%;">$169,900.00,  149 RUE DE LA FABRIQUE|#1 AYLMER (GATINEAU), QUEBEC, #14694164</div>`)[0];
+            popup_68cf6b2c0f014a809b6df244c0f800a1.setContent(html_f56f364fc4e844e99967e2cd392a99d6);
+        
+
+        circle_marker_d3c0881f000f48b1bd250142a417a34a.bindPopup(popup_68cf6b2c0f014a809b6df244c0f800a1)
+        ;
+
+        
+    
+    
+            var circle_marker_cbc6fd71c83c42be949a4d9c40f86dc2 = L.circleMarker(
+                [45.4732325, -75.76739599999999],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_a9650d81311e4ae08def0028dbb760f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d2a6f7fa8fc4e1b8a11dfb2e8f87bfe = $(`<div id="html_1d2a6f7fa8fc4e1b8a11dfb2e8f87bfe" style="width: 100.0%; height: 100.0%;">$157,000.00,  10 RUE DE LA FONDRIÈRE|#8 HULL (GATINEAU), QUEBEC, #22202731</div>`)[0];
+            popup_a9650d81311e4ae08def0028dbb760f8.setContent(html_1d2a6f7fa8fc4e1b8a11dfb2e8f87bfe);
+        
+
+        circle_marker_cbc6fd71c83c42be949a4d9c40f86dc2.bindPopup(popup_a9650d81311e4ae08def0028dbb760f8)
+        ;
+
+        
+    
+    
+            var circle_marker_121c0c46585f4023beda3b79f5805379 = L.circleMarker(
+                [1.1111, 1.1111],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_45b1a23305a94cb8bcf3ef7e5d97f14b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cb5378abd11497687a6d273b72bf311 = $(`<div id="html_8cb5378abd11497687a6d273b72bf311" style="width: 100.0%; height: 100.0%;">$159,900.00,  1134 MTÉE DE LA SOURCE CANTLEY, QUEBEC, #13400633</div>`)[0];
+            popup_45b1a23305a94cb8bcf3ef7e5d97f14b.setContent(html_8cb5378abd11497687a6d273b72bf311);
+        
+
+        circle_marker_121c0c46585f4023beda3b79f5805379.bindPopup(popup_45b1a23305a94cb8bcf3ef7e5d97f14b)
+        ;
+
+        
+    
+    
+            var circle_marker_1244e3a7d7a2421a9105ee6ebee42a71 = L.circleMarker(
+                [45.505919, -75.613573],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_1dd15e217bc149608d901b60c1a65239 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b2db4bb685f4fa5baff5d169876207f = $(`<div id="html_7b2db4bb685f4fa5baff5d169876207f" style="width: 100.0%; height: 100.0%;">$162,900.00,  245 RUE HENRI-MATISSE|#13 GATINEAU (GATINEAU), QUEBEC, #20129139</div>`)[0];
+            popup_1dd15e217bc149608d901b60c1a65239.setContent(html_7b2db4bb685f4fa5baff5d169876207f);
+        
+
+        circle_marker_1244e3a7d7a2421a9105ee6ebee42a71.bindPopup(popup_1dd15e217bc149608d901b60c1a65239)
+        ;
+
+        
+    
+    
+            var circle_marker_abe788b3fb234a88853faf360e0521d6 = L.circleMarker(
+                [45.492774, -75.687853],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_4defa519ba54449a80a08fa5eefeb499 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d87c4922db634bb1bffea076466bb161 = $(`<div id="html_d87c4922db634bb1bffea076466bb161" style="width: 100.0%; height: 100.0%;">$184,900.00,  924 RUE DE L'OASIS|#6 GATINEAU (GATINEAU), QUEBEC, #26877784</div>`)[0];
+            popup_4defa519ba54449a80a08fa5eefeb499.setContent(html_d87c4922db634bb1bffea076466bb161);
+        
+
+        circle_marker_abe788b3fb234a88853faf360e0521d6.bindPopup(popup_4defa519ba54449a80a08fa5eefeb499)
+        ;
+
+        
+    
+    
+            var circle_marker_31eeaa584f03418bb64cb85187355df9 = L.circleMarker(
+                [45.440155299999994, -75.70845649304471],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_7cbceb38b5d14afb9b041095838c3e8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af340cc6e67b4802a56ae940336c3a97 = $(`<div id="html_af340cc6e67b4802a56ae940336c3a97" style="width: 100.0%; height: 100.0%;">$139,500.00,  285 RUE LAURIER|#1702 HULL (GATINEAU), QUEBEC, #21161865</div>`)[0];
+            popup_7cbceb38b5d14afb9b041095838c3e8f.setContent(html_af340cc6e67b4802a56ae940336c3a97);
+        
+
+        circle_marker_31eeaa584f03418bb64cb85187355df9.bindPopup(popup_7cbceb38b5d14afb9b041095838c3e8f)
+        ;
+
+        
+    
+    
+            var circle_marker_c6599b5809424b8490b0bd8e230e63cc = L.circleMarker(
+                [45.4799865, -75.60912695701641],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_4113c28c41524e4a911d579f003c75e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f1e6c6f456a4df4bafef2e1262510e7 = $(`<div id="html_8f1e6c6f456a4df4bafef2e1262510e7" style="width: 100.0%; height: 100.0%;">$179,900.00,  19 RUE CAMPEAU GATINEAU (GATINEAU), QUEBEC, #10577312</div>`)[0];
+            popup_4113c28c41524e4a911d579f003c75e4.setContent(html_8f1e6c6f456a4df4bafef2e1262510e7);
+        
+
+        circle_marker_c6599b5809424b8490b0bd8e230e63cc.bindPopup(popup_4113c28c41524e4a911d579f003c75e4)
+        ;
+
+        
+    
+    
+            var circle_marker_63136bb2d8e94992b0f749def430dff0 = L.circleMarker(
+                [45.5213325, -75.4918669485294],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ee555ad6e6fe4493a2a0d1cba0393973);
+        
+    
+        var popup_5b92490ec2ed49c0aa457a7b1aa9c23a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65fa87ab149244c6a3669e67210dade5 = $(`<div id="html_65fa87ab149244c6a3669e67210dade5" style="width: 100.0%; height: 100.0%;">$199,900.00,  129 RUE DES MALARDS MASSON-ANGERS (GATINEAU), QUEBEC, #19216454</div>`)[0];
+            popup_5b92490ec2ed49c0aa457a7b1aa9c23a.setContent(html_65fa87ab149244c6a3669e67210dade5);
+        
+
+        circle_marker_63136bb2d8e94992b0f749def430dff0.bindPopup(popup_5b92490ec2ed49c0aa457a7b1aa9c23a)
+        ;
+
+        
+    
+    
+            var feature_group_e6a79b131be84762b3636372f3c1f731 = L.featureGroup(
+                {}
+            ).addTo(map_8ec75866af81422e847cc64bd58147e5);
+        
+    
+            var circle_marker_6030d7a6246e4ec69fa335058d045bcd = L.circleMarker(
+                [45.3481105, -75.6542566],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e6a79b131be84762b3636372f3c1f731);
+        
+    
+        var popup_e1639120876d476c9d77cc974e411a94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d822a155b9694331bc91be8acbd56f2f = $(`<div id="html_d822a155b9694331bc91be8acbd56f2f" style="width: 100.0%; height: 100.0%;">1000 Airport Parkway, Ottawa, airport - YOW</div>`)[0];
+            popup_e1639120876d476c9d77cc974e411a94.setContent(html_d822a155b9694331bc91be8acbd56f2f);
+        
+
+        circle_marker_6030d7a6246e4ec69fa335058d045bcd.bindPopup(popup_e1639120876d476c9d77cc974e411a94)
+        ;
+
+        
+    
+    
+            var circle_marker_386d701fe3484814bd73f741cd2321d8 = L.circleMarker(
+                [45.3337675, -75.69089377583316],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e6a79b131be84762b3636372f3c1f731);
+        
+    
+        var popup_00e89e9e7b5646108bebbfe3cd3fd88e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64e3d673de06443d82387804dcf94b47 = $(`<div id="html_64e3d673de06443d82387804dcf94b47" style="width: 100.0%; height: 100.0%;">224 Hunt Club Road Ottawa, T and T supermarket</div>`)[0];
+            popup_00e89e9e7b5646108bebbfe3cd3fd88e.setContent(html_64e3d673de06443d82387804dcf94b47);
+        
+
+        circle_marker_386d701fe3484814bd73f741cd2321d8.bindPopup(popup_00e89e9e7b5646108bebbfe3cd3fd88e)
+        ;
+
+        
+    
+    
+            var circle_marker_37cd35af3911494ea1b0219522f1b91d = L.circleMarker(
+                [45.4225294, -75.6833923272258],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e6a79b131be84762b3636372f3c1f731);
+        
+    
+        var popup_3312a1f4a2b846d98ed2da6346d8cc98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc81a52358ce4b5db8068dd09a0a6efe = $(`<div id="html_bc81a52358ce4b5db8068dd09a0a6efe" style="width: 100.0%; height: 100.0%;">75 Laurier Ave E, Ottawa, ON K1N 6N5, University of Ottawa</div>`)[0];
+            popup_3312a1f4a2b846d98ed2da6346d8cc98.setContent(html_bc81a52358ce4b5db8068dd09a0a6efe);
+        
+
+        circle_marker_37cd35af3911494ea1b0219522f1b91d.bindPopup(popup_3312a1f4a2b846d98ed2da6346d8cc98)
+        ;
+
+        
+    
+    
+            var circle_marker_54ff90cd5dd44540ad04b9944bfb5487 = L.circleMarker(
+                [45.3834576, -75.6975055],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e6a79b131be84762b3636372f3c1f731);
+        
+    
+        var popup_d4a2237011724812a337074ea790bb03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26910084504d4d9fa8e42463c1f4b9f8 = $(`<div id="html_26910084504d4d9fa8e42463c1f4b9f8" style="width: 100.0%; height: 100.0%;">1125 Colonel By Dr, Ottawa, ON K1S 5B6, Carleton University</div>`)[0];
+            popup_d4a2237011724812a337074ea790bb03.setContent(html_26910084504d4d9fa8e42463c1f4b9f8);
+        
+
+        circle_marker_54ff90cd5dd44540ad04b9944bfb5487.bindPopup(popup_d4a2237011724812a337074ea790bb03)
+        ;
+
+        
+    
+    
+            var circle_marker_f415669fb58a44ab9d9cb09f73a20b12 = L.circleMarker(
+                [45.4164666, -75.6517255],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e6a79b131be84762b3636372f3c1f731);
+        
+    
+        var popup_33092f2795c34e8f861961602aae3231 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94ac51faca4f4f16a5ecb2d7e2342e5b = $(`<div id="html_94ac51faca4f4f16a5ecb2d7e2342e5b" style="width: 100.0%; height: 100.0%;">200 Tremblay Rd, Ottawa, ON K1G 3H5, Via Rail Station</div>`)[0];
+            popup_33092f2795c34e8f861961602aae3231.setContent(html_94ac51faca4f4f16a5ecb2d7e2342e5b);
+        
+
+        circle_marker_f415669fb58a44ab9d9cb09f73a20b12.bindPopup(popup_33092f2795c34e8f861961602aae3231)
+        ;
+
+        
+    
+    
+            var circle_marker_a82034f2284b49699280ec3fb92f46df = L.circleMarker(
+                [45.41117285, -75.69335609255593],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e6a79b131be84762b3636372f3c1f731);
+        
+    
+        var popup_d6f2f8bff96b40268cea8a8d0d4d97a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7808c512e51440dfa6c4035377542bf7 = $(`<div id="html_7808c512e51440dfa6c4035377542bf7" style="width: 100.0%; height: 100.0%;">464 Bank St, Ottawa, Ottawa Fight and Fitness</div>`)[0];
+            popup_d6f2f8bff96b40268cea8a8d0d4d97a4.setContent(html_7808c512e51440dfa6c4035377542bf7);
+        
+
+        circle_marker_a82034f2284b49699280ec3fb92f46df.bindPopup(popup_d6f2f8bff96b40268cea8a8d0d4d97a4)
+        ;
+
+        
+    
+    
+            var circle_marker_d10e5eae89a847e8bba57363451f0b4f = L.circleMarker(
+                [45.35302895, -75.85177519607319],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e6a79b131be84762b3636372f3c1f731);
+        
+    
+        var popup_68a3610f4aa740d7a70d3901156e8740 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb8a7eea11344ed3b2bf6490175cf84e = $(`<div id="html_cb8a7eea11344ed3b2bf6490175cf84e" style="width: 100.0%; height: 100.0%;">3500 Carling Avenue, Ottawa, New DND HQ</div>`)[0];
+            popup_68a3610f4aa740d7a70d3901156e8740.setContent(html_cb8a7eea11344ed3b2bf6490175cf84e);
+        
+
+        circle_marker_d10e5eae89a847e8bba57363451f0b4f.bindPopup(popup_68a3610f4aa740d7a70d3901156e8740)
+        ;
+
+        
+    
+    
+            var circle_marker_838b7d9048bf4f3383297d3856ecfd00 = L.circleMarker(
+                [45.4236165, -75.68979738429647],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e6a79b131be84762b3636372f3c1f731);
+        
+    
+        var popup_dd2504513c7e4f949436c96346cf7b95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95518c266e9745c2a6b92062dba7ec67 = $(`<div id="html_95518c266e9745c2a6b92062dba7ec67" style="width: 100.0%; height: 100.0%;">101 Colonel By Drive, Ottawa, M Gen George R. Pearkes Building</div>`)[0];
+            popup_dd2504513c7e4f949436c96346cf7b95.setContent(html_95518c266e9745c2a6b92062dba7ec67);
+        
+
+        circle_marker_838b7d9048bf4f3383297d3856ecfd00.bindPopup(popup_dd2504513c7e4f949436c96346cf7b95)
+        ;
+
+        
+    
+    
+            var circle_marker_574fc9da59e94bda93a0c2a2e7ebb0b3 = L.circleMarker(
+                [45.44491725, -75.72946552574075],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e6a79b131be84762b3636372f3c1f731);
+        
+    
+        var popup_fc631596ebda43ebb6dabbb0fbc34972 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54c64eaa892242c79c4d0cae2a72f99b = $(`<div id="html_54c64eaa892242c79c4d0cae2a72f99b" style="width: 100.0%; height: 100.0%;">555 Boulevard de la Carrière, Gatineau , Louis St-Laurent Building</div>`)[0];
+            popup_fc631596ebda43ebb6dabbb0fbc34972.setContent(html_54c64eaa892242c79c4d0cae2a72f99b);
+        
+
+        circle_marker_574fc9da59e94bda93a0c2a2e7ebb0b3.bindPopup(popup_fc631596ebda43ebb6dabbb0fbc34972)
+        ;
+
+        
+    
+    
+            var circle_marker_56fbf0d692604810a76c07f4df35c5f6 = L.circleMarker(
+                [45.4220775, -75.62893879990433],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e6a79b131be84762b3636372f3c1f731);
+        
+    
+        var popup_4e0e2cfcede04b0bbda306263e957e15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a971750e04024a5fb462263794fdf67a = $(`<div id="html_a971750e04024a5fb462263794fdf67a" style="width: 100.0%; height: 100.0%;">4210 Labelle Street, Ottawa, Labelle/CANEX Building</div>`)[0];
+            popup_4e0e2cfcede04b0bbda306263e957e15.setContent(html_a971750e04024a5fb462263794fdf67a);
+        
+
+        circle_marker_56fbf0d692604810a76c07f4df35c5f6.bindPopup(popup_4e0e2cfcede04b0bbda306263e957e15)
+        ;
+
+        
+    
+    
+            var circle_marker_73d9eafeae024ae69eba2cb32e6f6483 = L.circleMarker(
+                [0.0, 0.0],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_e6a79b131be84762b3636372f3c1f731);
+        
+    
+        var popup_5aac2a5bca134e328241ad1bc9a3b684 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aff18c4a1bdb40dd87cf95642f0c9aff = $(`<div id="html_aff18c4a1bdb40dd87cf95642f0c9aff" style="width: 100.0%; height: 100.0%;">713 Montreal Road, Ottawa, Montfort Campus  CF Health Services Ottawa Clinic (CF H Svcs (O))</div>`)[0];
+            popup_5aac2a5bca134e328241ad1bc9a3b684.setContent(html_aff18c4a1bdb40dd87cf95642f0c9aff);
+        
+
+        circle_marker_73d9eafeae024ae69eba2cb32e6f6483.bindPopup(popup_5aac2a5bca134e328241ad1bc9a3b684)
+        ;
+
+        
+    
+</script>
